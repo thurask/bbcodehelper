@@ -1,0 +1,147 @@
+<!--NationStates BBCode-->
+<bbcode>
+	<element>
+		<name>Bold</name>
+		<tags>[b]Text[/b]</tags>
+	</element>
+	<element>
+		<name>Italic</name>
+		<tags>[i]Text[/i]</tags>
+	</element>
+	<element>
+		<name>Underlined</name>
+		<tags>[u]Text[/u]</tags>
+	</element>
+	<element>
+		<name>Strikethrough</name>
+		<tags>[strike]Text[/strike]</tags>
+	</element>
+	<element>
+		<name>Bare URL</name>
+		<tags>[url]http://blackberry.com[/url]</tags>
+	</element>	
+	<element>
+		<name>Hyperlink</name>
+		<tags>[url=http://blackberry.com]BlackBerry[/url]</tags>
+	</element>
+	<element>
+		<name>Image</name>
+		<tags>[img]http://website.com/path/to/image.jpg[/img]</tags>
+	</element>
+	<element>
+		<name>Hyperlinked image</name>
+		<tags>[url=http://website.com][img]http://website.com/path/to/image.jpg[/img][/url]</tags>
+	</element>
+	<element>
+		<name>Quote</name>
+		<tags>[quote]O, I am slain![/quote]</tags>
+	</element>	
+	<element>
+		<name>Quote (with author, ID optional)</name>
+		<tags>[quote="Polonius";p="postID"]O, I am slain![/quote]</tags>
+	</element>	
+	<element>
+		<name>Code (monospaced)</name>
+		<tags>[code]sudo rm -rf /[/code]</tags>
+	</element>
+	<element>
+		<name>Preserve whitespace</name>
+		<tags>[pre]T e x t[/pre]</tags>
+	</element>
+	<element>
+		<name>Box</name>
+		<tags>[box]Text[/box]</tags>
+	</element>		
+	<element>
+		<name>Spoiler</name>
+		<tags>[spoiler]Text[/spoiler]</tags>
+	</element>
+	<element>
+		<name>Float image in text block (left)</name>
+		<tags>[floatleft][img]{image}[/img][/floatleft]</tags>
+	</element>		
+	<element>
+		<name>Float image in text block (right)</name>
+		<tags>[floatright][img]{image}[/img][/floatright]</tags>
+	</element>
+	<element>
+		<name>Font size (100 is normal)</name>
+		<tags>[size=300]HELLO MY NAME IS HOWARD[/size]</tags>
+	</element>
+	<element>
+		<name>Font color (hex)</name>
+		<tags>Roses are [color=#FF0000]red[/color]</tags>
+	</element>
+	<element>
+		<name>Font color (predefined)</name>
+		<tags>Violets are [color=blue]#0000FF[/color]</tags>
+	</element>
+	<element>
+		<name>Font background color (hex)</name>
+		<tags>Roses are [background=#FF0000]red[/background]</tags>
+	</element>
+	<element>
+		<name>Font background color (predefined)</name>
+		<tags>Violets are [background=blue]#0000FF[/background]</tags>
+	</element>
+	<element>
+		<name>Alignment</name>
+		<tags>[align=(left/right/center)]Text[/align]</tags>
+	</element>
+	<element>
+		<name>Blocktext</name>
+		<tags>[blocktext]Text[/blocktext]</tags>
+	</element>
+	<element>
+		<name>Tab</name>
+		<tags>[tab=(# of pixels)]Text[/tab]</tags>
+	</element>
+	<element>
+		<name>Horizontal line</name>
+		<tags>[hr][/hr]</tags>
+	</element>
+	<element>
+		<name>List</name>
+		<tags>[list]{items}[/list]</tags>
+	</element>
+	<element>
+		<name>List (numbered)</name>
+		<tags>[list=1]{items}[/list]</tags>
+	</element>
+	<element>
+		<name>List (lettered)</name>
+		<tags>[list=a]{items}[/list]</tags>
+	</element>
+	<element>
+		<name>List item</name>
+		<tags>[*]Item</tags>
+	</element>
+	<element>
+		<name>Superscript</name>
+		<tags>16 = 4[sup]2[/sup]</tags>
+	</element>
+	<element>
+		<name>Subscript</name>
+		<tags>Water = H[sub]2[/sub]O</tags>
+	</element>
+	<element>
+		<name>Table</name>
+		<tags>[table]{rows}[/table]</tags>
+	</element>	
+	<element>
+		<name>Table rows</name>
+		<tags>[tr]{columns}[/tr]</tags>
+	</element>
+	<element>
+		<name>Table columns</name>
+		<tags>[td]Text[/td]</tags>
+	</element>
+	<element>
+		<name>Nation</name>
+		<tags>[nation]Testlandia[/nation]</tags>
+	</element>
+	<element>
+		<name>Region</name>
+		<tags>[region]Testregionia[/region]</tags>
+	</element>
+</bbcode>
